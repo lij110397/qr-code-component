@@ -1,0 +1,84 @@
+/* || Define all colors used in html */
+:root {
+  --color-primary: #2c7dfa;
+  --color-primary-shade: #3685ff;
+  --color-dark-navy: #1f314f;
+  --color-grey: #7d889e;
+  --color-light-grey: #d5e1ef;
+}
+
+/* || Typography setting */
+.outfit-normal,
+.outfit-bold {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.outfit-normal {
+  font-weight: 400;
+}
+
+.outfit-bold {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 22px;
+  color: var(--color-dark-navy); /* Color setting for h1 */
+}
+
+p {
+  font-size: 15px;
+  color: var(--color-grey); /* Color setting for p */
+}
+
+body {
+  background-color: var(--color-light-grey);
+}
+
+/* Size and Layout */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; /* remove the default margin of <body> */
+}
+
+p {
+  margin: 8px;
+}
+
+h1 {
+  margin: 0 auto 8px auto;
+}
+
+.container {
+  background-color: white;
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 16px;
+  text-align: center;
+  padding: 0;
+}
+
+img {
+  border-radius: 20px;
+  width: 288px;
+  height: 288px;
+  margin: 16px 16px 0 16px;
+  display: block;
+}
+
+
+
+
